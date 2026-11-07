@@ -33,8 +33,6 @@
 
 It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real physical adapter**, tells you instantly when the internet Drops, shows exactly **which apps and Destinations** use your Data, and keeps a clean Overlay on your Screen.
 
-> 💡 One app. One glance. Complete awareness.
-
 ---
 
 ## ✨ Features
