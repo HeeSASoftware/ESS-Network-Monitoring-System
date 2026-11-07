@@ -32,6 +32,7 @@
 It measures **ping, jitter, packet loss, download and upload speed** on the **real physical adapter**, alerts you the moment the internet drops, shows **which apps and destinations** use your data, and keeps a clean overlay on your screen.
 
 <details>
+<p align="center"><i>👇 Tap below to browse screenshots and demos</i></p>
 <summary><img src="https://img.shields.io/badge/🖼️_Screenshots_&_Demos-Click_to_open-0A84FF?style=for-the-badge&labelColor=0B1220" alt="Screenshots and demos, click to open"></summary>
 
 <br>
