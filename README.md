@@ -55,7 +55,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <br>
 <p align="center">
   <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
-  <img <img src="docs/media/About.png" width="760" alt="About ESS"> alt="ESS dashboard">
+  <img <img src="docs/media/Status.png" width="760" alt="Status ESS"> alt="ESS Status">
 </p>
 </details>
 
