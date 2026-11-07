@@ -32,7 +32,7 @@
 It measures **ping, jitter, packet loss, download and upload speed** on the **real physical adapter**, alerts you the moment the internet drops, shows **which apps and destinations** use your data, and keeps a clean overlay on your screen.
 
 <details>
-<summary><b>🖼️ Screenshots & demos</b> &nbsp;·&nbsp; click to open, then pick a view</summary>
+<summary><b>🖼️ Screenshots & Preview </b> &nbsp;·&nbsp; click to open</summary>
 
 <br>
 
@@ -106,14 +106,6 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <br>
 <p align="center">
   <img <img src="docs/media/Settings.png" width="760" alt="Settings">
-</p>
-</details>
-
-<details>
-<summary>🎨 &nbsp;Themes: Dark · Light · Glass</summary>
-<br>
-<p align="center">
-  <img src="https://placehold.co/1280x720/0B1220/E5E7EB?text=SLOT+7+%7C+docs%2Fmedia%2F07-themes.png" width="760" alt="Dark, Light and Glass themes">
 </p>
 </details>
 
