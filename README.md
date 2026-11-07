@@ -31,7 +31,7 @@
 
 **HeeSA Everwatch Signal System (ESS)** is a premium Windows network monitor built for people who need the *truth* about their connection, not a guess.
 
-It measures ping, jitter, packet loss and speed on the **real physical adapter** (before any VPN), tells you instantly when the internet drops, shows exactly **which apps and destinations** use your data, and keeps a clean overlay on your screen, **even above fullscreen games**.
+It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real physical adapter**, tells you instantly when the internet Drops, shows exactly **which apps and Destinations** use your Data, and keeps a clean Overlay on your Screen.
 
 > 💡 One app. One glance. Complete awareness.
 
