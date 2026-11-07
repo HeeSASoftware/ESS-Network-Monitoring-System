@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ESS Gallery · HeeSA Everwatch Signal System</title>
+<style>
+  :root{
+    --bg:#0B1220; --panel:#111a2e; --line:#1f2a44; --text:#e5e7eb; --muted:#8b97b1; --accent:#0A84FF;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    display:flex; flex-direction:column; align-items:center;
+    padding:max(16px,env(safe-area-inset-top)) 16px max(16px,env(safe-area-inset-bottom));
+  }
+  header{width:100%; max-width:1100px; display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:14px}
+  header h1{font-size:1rem; margin:0; font-weight:600}
+  header a{color:var(--muted); text-decoration:none; font-size:.875rem}
+  header a:hover{color:var(--text)}
+  .viewer{position:relative; width:100%; max-width:1100px}
+  .stage{
+    position:relative; aspect-ratio:16/9; width:100%;
+    background:var(--panel); border:1px solid var(--line); border-radius:14px; overflow:hidden;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .stage img{max-width:100%; max-height:100%; object-fit:contain; display:block; transition:opacity .2s}
+  .stage img.fade{opacity:0}
+  .err{position:absolute; color:var(--muted); font-size:.9rem; display:none; text-align:center; padding:16px}
+  .arrow{
+    position:absolute; top:50%; transform:translateY(-50%);
+    width:44px; height:44px; border-radius:50%; border:1px solid rgba(255,255,255,.18);
+    background:rgba(11,18,32,.72); color:#fff; font-size:1.25rem; cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+    backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
+  }
+  .arrow:hover{background:var(--accent)}
+  .arrow:focus-visible,.dot:focus-visible,.thumb:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+  .prev{left:12px} .next{right:12px}
+  .meta{display:flex; justify-content:space-between; align-items:center; margin-top:12px; gap:12px}
+  .caption{font-size:1rem; font-weight:600}
+  .count{color:var(--muted); font-size:.875rem; font-variant-numeric:tabular-nums}
+  .dots{display:flex; gap:8px; justify-content:center; margin-top:14px; flex-wrap:wrap}
+  .dot{width:9px; height:9px; border-radius:50%; border:0; padding:0; background:var(--line); cursor:pointer}
+  .dot[aria-current="true"]{background:var(--accent); width:22px; border-radius:6px}
+  .thumbs{display:flex; gap:10px; margin-top:16px; overflow-x:auto; padding-bottom:6px; scrollbar-width:thin}
+  .thumb{
+    flex:0 0 auto; width:120px; aspect-ratio:16/9; border-radius:8px; overflow:hidden; cursor:pointer;
+    border:2px solid transparent; background:var(--panel); padding:0; opacity:.6;
+  }
+  .thumb[aria-current="true"]{border-color:var(--accent); opacity:1}
+  .thumb img{width:100%; height:100%; object-fit:cover; display:block}
+  @media (max-width:600px){
+    .arrow{width:38px;height:38px} .thumb{width:92px}
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>🛰️ HeeSA Everwatch Signal System · Gallery</h1>
+    <a href="https://github.com/HeeSASoftware/ESS-Network-Monitoring-System">← Back to GitHub</a>
+  </header>
+
+  <main class="viewer" aria-roledescription="carousel" aria-label="ESS screenshots and demos">
+    <div class="stage" id="stage">
+      <img id="shot" alt="">
+      <div class="err" id="err">Image not found. Check the file name inside docs/media/.</div>
+      <button class="arrow prev" id="prev" aria-label="Previous">&#10094;</button>
+      <button class="arrow next" id="next" aria-label="Next">&#10095;</button>
+    </div>
+    <div class="meta">
+      <div class="caption" id="caption"></div>
+      <div class="count" id="count"></div>
+    </div>
+    <div class="dots" id="dots"></div>
+    <div class="thumbs" id="thumbs"></div>
+  </main>
+
+<script>
+  // Edit this list to add, remove or reorder slides.
+  // "file" is relative to docs/ (files live in docs/media/). Spaces must be written as %20.
+  var SLIDES = [
+    { emoji: "📡", title: "Status",                  file: "media/Status.png" },
+    { emoji: "🛡️", title: "VPN Mode",                file: "media/VPN%20MODE.png" },
+    { emoji: "🖥️", title: "Overlay in action",       file: "media/ESS%20Overlay.png" },
+    { emoji: "🔔", title: "Smart Alerts",            file: "media/Notification.gif" },
+    { emoji: "📈", title: "Data usage",              file: "media/DataUsage.png" },
+    { emoji: "🗺️", title: "Global Traffic Map",      file: "media/NetworkMap.gif" },
+    { emoji: "🚀", title: "Speed test",              file: "media/SpeedTest.png" },
+    { emoji: "🔎", title: "DNS",                     file: "media/DNS.png" },
+    { emoji: "⚙️", title: "Settings",                file: "media/Settings.png" }
+  ];
+
+  var i = 0;
+  var shot = document.getElementById("shot");
+  var err = document.getElementById("err");
+  var caption = document.getElementById("caption");
+  var count = document.getElementById("count");
+  var dots = document.getElementById("dots");
+  var thumbs = document.getElementById("thumbs");
+
+  SLIDES.forEach(function (s, n) {
+    var d = document.createElement("button");
+    d.className = "dot"; d.setAttribute("aria-label", s.title);
+    d.addEventListener("click", function () { go(n); });
+    dots.appendChild(d);
+
+    var t = document.createElement("button");
+    t.className = "thumb"; t.setAttribute("aria-label", s.title);
+    var im = document.createElement("img");
+    im.src = s.file; im.loading = "lazy"; im.alt = "";
+    t.appendChild(im);
+    t.addEventListener("click", function () { go(n); });
+    thumbs.appendChild(t);
+  });
+
+  function render() {
+    var s = SLIDES[i];
+    shot.classList.add("fade");
+    err.style.display = "none";
+    setTimeout(function () {
+      shot.onerror = function () { shot.style.visibility = "hidden"; err.style.display = "block"; };
+      shot.onload = function () { shot.style.visibility = "visible"; shot.classList.remove("fade"); };
+      shot.src = s.file;
+      shot.alt = s.title;
+    }, 120);
+    caption.textContent = s.emoji + "  " + s.title;
+    count.textContent = (i + 1) + " / " + SLIDES.length;
+    [].forEach.call(dots.children, function (el, n) { el.setAttribute("aria-current", n === i); });
+    [].forEach.call(thumbs.children, function (el, n) {
+      el.setAttribute("aria-current", n === i);
+      if (n === i && el.scrollIntoView) el.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    });
+    var nx = new Image(); nx.src = SLIDES[(i + 1) % SLIDES.length].file; // preload next
+  }
+
+  function go(n) { i = (n + SLIDES.length) % SLIDES.length; render(); }
+
+  document.getElementById("prev").addEventListener("click", function () { go(i - 1); });
+  document.getElementById("next").addEventListener("click", function () { go(i + 1); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft") go(i - 1);
+    if (e.key === "ArrowRight") go(i + 1);
+  });
+
+  // Swipe on touch screens
+  var x0 = null;
+  var stage = document.getElementById("stage");
+  stage.addEventListener("touchstart", function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  stage.addEventListener("touchend", function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0;
+    if (Math.abs(dx) > 40) go(dx < 0 ? i + 1 : i - 1);
+    x0 = null;
+  });
+
+  // Optional deep link: gallery page with #3 opens slide 3
+  var h = parseInt(location.hash.slice(1), 10);
+  if (h >= 1 && h <= SLIDES.length) i = h - 1;
+  render();
+</script>
+</body>
+</html>
