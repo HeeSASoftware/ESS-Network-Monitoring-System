@@ -274,7 +274,6 @@ ESS stores its application files and supporting data in the following locations:
 | **User Data & Cache** | `%LOCALAPPDATA%\HeeSA ESS` |
 
 **Note:** These directories are created and managed automatically by ESS during operation.
-```
 
 ---
 
