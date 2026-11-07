@@ -138,7 +138,6 @@ HeeSA Everwatch Signal System/
 
 - 🪵 One unified **Crash Log** (`ESS Crash Log.log`) with a **Crash Log.exe** viewer, built-in **Run diagnosis** and exportable crash reports
 - 🧹 Clean **Uninstall ESS.exe**
-- 🧊 Calm UI: no jumpy numbers, no false alarms
 
 ---
 
@@ -147,8 +146,7 @@ HeeSA Everwatch Signal System/
 | | |
 |---|---|
 | 💬 Telegram channel | [@HeeSA_Software](https://t.me/HeeSA_Software) |
-| 👤 Telegram (private) | [@abolfazlhessari](https://t.me/abolfazlhessari) |
-| 🐙 GitHub | [@HeeSA_Software](https://github.com/HeeSA_Software) |
+| 🐙 GitHub | [@HeeSASoftware](https://github.com/HeeSASoftware) |
 
 ---
 
