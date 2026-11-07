@@ -65,20 +65,19 @@ It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real 
 
 ### 🗺️ Global Traffic Map
 - 🌍 *Global Traffic Map By HeeSA* with an offline **Net DataBase**
-- 🏷️ Adapter labels (LAN) / (USB) for physical adapters only
 
 ### 🕵️ IP · ISP · Location
-- 🎯 Stable detection with few, ordered providers
+- 🎯 IP Detection Powered by ipmyp.ir, ipapi.co & ipinfo.co
 - ☁️ Cloudflare trace + offline Net DataBase
-- 🔒 No unreliable third-party flip-flopping
+- 🔒 Data Security, IP Privacy & Connection Protection
 
 ### 🧱 VPN / Proxy & Filter-Breaker Detection
-- 🛡️ Detects VPN and proxy tools (e.g. Lantern, v2ray-type clients)
-- ⏳ Hold and grace timers so the badge doesn't flicker
-- 🧾 Detailed trace lines in the Crash Log for diagnosis
+- 🛡️ Detects VPN and Proxy tools (e.g. Lantern, v2ray-type clients)
+- ⏳ Accurate Detection of VPNs & Proxy Clients
+- 🧾 Instant Connection Reports
 
 ### 🧰 Tools
-- 🚀 **Speed Test**: Cloudflare and Speedtest by Ookla (no installs per run)
+- 🚀 **Speed Test**: Cloudflare and Speedtest by Ookla
 - 🧭 **Ping & Trace**: full traceroute with real hop results
 
 ### 🎨 Themes
