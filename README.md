@@ -112,16 +112,14 @@ It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real 
 
 ## 🚀 Getting started
 
-1. 📥 Download the latest release and extract the **`HeeSA Everwatch Signal System`** folder.
+1. 📥 Download the latest installer, choose your preferred installation location, and Run the EXE file.
 2. ▶️ Run **`HeeSA Everwatch Signal System.exe`**.
-3. 🪄 The overlay appears automatically. Open Settings to choose your theme and options.
+3. 🔐 Read the information on the "Yes, Enable" screen and confirm to continue.
 4. 🟢 Enable **Start with Windows** and **Keep running in the tray** to let ESS quietly watch your network from boot.
 
 **Requirements**
 - 🪟 Windows
 - 🌐 Microsoft Edge **WebView2 Runtime** (Evergreen)
-
-> 📦 The program folder is **portable**: copy it to another PC and run it. It does not depend on files outside its folder.
 
 ---
 
@@ -133,8 +131,6 @@ HeeSA Everwatch Signal System/
 ├── 🗑️ Uninstall ESS.exe
 └── …clean, grouped support folders
 ```
-
-Only the main executable and the uninstaller are visible; runtime files are neatly grouped into a few clearly named folders.
 
 ---
 
