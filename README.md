@@ -157,13 +157,14 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 ### 📊 Data Usage
 
 - 🧩 Break down usage **by application**, **by destination** and **by country**
-- ✅ **Real traffic only**, with smart detection of fake traffic
-- 🗓️ History stored for up to **5 years**
+- 🧠 Smart VPN detection: tunnel traffic is recognized and never double-counted
+- 🗓️ Look back up to **5 years** at your total usage, or **2 years** by app and destination
 - 🛰️ **ESS Service** keeps recording in the background, even when the app is closed
+- 🔐 DataUsage encrypted with **AES-256-GCM**, with the key protected
 
 ### 🗺️ Global Traffic Map
 
-- 🌍 *Global Traffic Map by HeeSA*, powered by an offline network database
+- 🌍 *Global Traffic Map by HeeSA*, powered by [DB-IP](https://db-ip.com) (CC BY 4.0).
 
 ### 🕵️ IP · ISP · Location
 
@@ -174,8 +175,8 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 ### 🧱 VPN / Proxy Detection
 
 - 🛡️ Detects VPN and proxy tools (for example Lantern and v2ray-type clients)
-- ⏳ Accurate identification of VPN and proxy clients
-- 🧾 Instant connection reports
+- 🔁 Live VPN status: Connecting, Disconnecting
+- 🌍 See where your traffic exits: IP, country and ISP
 
 ### 🧰 Tools
 
