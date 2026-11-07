@@ -1,10 +1,8 @@
 <div align="center">
 
-# 🛰️ HeeSA Everwatch Signal System
+# Heesa Everwatch Signal System (ESS)
 
-### Free Network Intelligence System for Windows
-
-*Know the truth about your connection, not a guess.*
+### Free Network Monitoring System For Windows
 
 <br>
 
@@ -33,18 +31,6 @@
 
 It measures **ping, jitter, packet loss, download and upload speed** on the **real physical adapter**, alerts you the moment the internet drops, shows **which apps and destinations** use your data, and keeps a clean overlay on your screen.
 
-<!--
-═══════════════════════════════════════════════════════════
- GALLERY GUIDE
- 1. Create the folder  docs/media/  in your repo.
- 2. Upload your files there using EXACTLY the names below
-    (or change the src paths in each slot).
- 3. Delete the "placehold.co" URL and keep only the docs/media path.
- Tips: PNG for screenshots, GIF for short demos, ~1280×720 (16:9),
-       keep each file under ~5 MB so the page loads fast.
-═══════════════════════════════════════════════════════════
--->
-
 <details>
 <summary><b>🖼️ Screenshots & demos</b> &nbsp;·&nbsp; click to open, then pick a view</summary>
 
@@ -54,8 +40,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>📊 &nbsp;Status</summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
-  <img <img src="docs/media/Status.png" width="760" alt="Status ESS"> alt="ESS Status">
+  <img <img src="docs/media/Status.png" width="760" alt="Status ESS">
 </p>
 </details>
 
@@ -64,8 +49,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>📊 &nbsp;VPN MODE</summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
-  <img <img src="docs/media/VPN MODE.png" width="760" alt="VPN MODE"> alt="VPN MODE">
+  <img <img src="docs/media/VPN MODE.png" width="760" alt="VPN MODE">
 </p>
 </details>
 
@@ -73,7 +57,6 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🖥️ &nbsp;Overlay in action </summary>
 <br>
 <p align="center">
-  <!-- 🎞️ SLOT 2 → docs/media/02-overlay.gif -->
   <img <img src="docs/media/ESS Overlay.png" width="760" alt="ESS overlay">
 </p>
 </details>
@@ -82,7 +65,6 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🔔 &nbsp;Smart Alerts (GIF)</summary>
 <br>
 <p align="center">
-  <!-- 🎞️ SLOT 3 → docs/media/03-alerts.gif -->
   <img <img src="docs/media/Alert.png" width="760" alt="Disconnect and reconnect alerts">
 </p>
 </details>
@@ -91,16 +73,14 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>📈 &nbsp;Data usage</summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 4 → docs/media/04-data-usage.png -->
   <img <img src="docs/media/DataUsage.png" width="760" alt="Data usage by app, destination and country">
 </p>
 </details>
 
 <details>
-<summary>🗺️ &nbsp;Global traffic Map</summary>
+<summary>🗺️ &nbsp;Global traffic Map(GIF)</summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 5 → docs/media/05-traffic-map.png -->
   <img <img src="docs/media/Network Map.png" width="760" alt="Global traffic Map">
 </p>
 </details>
@@ -109,7 +89,6 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🧰 &nbsp;Speed test </summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 6 → docs/media/06-tools.png -->
   <img <img src="docs/media/SpeedTest.png" width="760" alt="SpeedTest tools">
 </p>
 </details>
@@ -118,7 +97,6 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🧰 &nbsp;Trace Route </summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 6 → docs/media/06-tools.png -->
   <img <img src="docs/media/TraceRoute.png" width="760" alt="TraceRoute tools">
 </p>
 </details>
@@ -127,8 +105,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>📊 &nbsp;Settings</summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
-  <img <img src="docs/media/Settings.png" width="760" alt="Settings"> alt="Settings">
+  <img <img src="docs/media/Settings.png" width="760" alt="Settings">
 </p>
 </details>
 
@@ -136,7 +113,6 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🎨 &nbsp;Themes: Dark · Light · Glass</summary>
 <br>
 <p align="center">
-  <!-- 📸 SLOT 7 → docs/media/07-themes.png -->
   <img src="https://placehold.co/1280x720/0B1220/E5E7EB?text=SLOT+7+%7C+docs%2Fmedia%2F07-themes.png" width="760" alt="Dark, Light and Glass themes">
 </p>
 </details>
