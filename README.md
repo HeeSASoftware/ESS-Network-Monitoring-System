@@ -4,11 +4,13 @@
 
 ### Free Network Intelligence System for Windows
 
+*Know the truth about your connection, not a guess.*
+
 <br>
 
-<a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_English-0A84FF?style=for-the-badge&labelColor=0B1220" alt="English"></a>
+<a href="./README.md"><img src="https://img.shields.io/badge/🇬🇧_English-0A84FF?style=for-the-badge&labelColor=0B1220" alt="English"></a>
 &nbsp;
-<a href="README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-1F2937?style=for-the-badge&labelColor=0B1220" alt="Persian"></a>
+<a href="./README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-1F2937?style=for-the-badge&labelColor=0B1220" alt="Persian"></a>
 
 <br><br>
 
@@ -16,116 +18,126 @@
 ![C#](https://img.shields.io/badge/C%23-WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![WebView2](https://img.shields.io/badge/UI-WebView2-00B7C3?style=flat-square&logo=microsoftedge&logoColor=white)
 ![Themes](https://img.shields.io/badge/Themes-Dark_·_Light_·_Glass-8B5CF6?style=flat-square)
-![Languages](https://img.shields.io/badge/Docs-EN_·_FA-F59E0B?style=flat-square)
+![Docs](https://img.shields.io/badge/Docs-EN_·_FA-F59E0B?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-22C55E?style=flat-square)
 
 <br>
 
-[✨ Features](#-features) · [🧭 How it works](#-how-it-works) · [🚀 Getting started](#-getting-started) · [🗂️ Folder layout](#️-folder-layout) · [🛡️ Reliability](#️-reliability) · [📬 Contact](#-contact)
+[**⬇️ Download latest release**](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest)
+
+<br>
+
+[Features](#features) · [How it works](#how-it-works) · [Getting started](#getting-started) · [Folder layout](#folder-layout) · [Reliability](#reliability) · [Contact](#contact)
 
 </div>
 
 ---
 
+<a id="what-is-ess"></a>
 ## 🌌 What is ESS?
 
-**HeeSA Everwatch Signal System (ESS)** is a premium Windows network monitor built for people who need the *truth* about their connection, not a guess.
+**HeeSA Everwatch Signal System (ESS)** is a premium Windows network monitor for people who need accurate answers about their connection.
 
-It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real physical adapter**, tells you instantly when the internet Drops, shows exactly **which apps and Destinations** use your Data, and keeps a clean Overlay on your Screen.
+It measures **ping, jitter, packet loss, download and upload speed** on the **real physical adapter**, alerts you the moment the internet drops, shows **which apps and destinations** use your data, and keeps a clean overlay on your screen.
+
+<!--
+📸 Add screenshots here once ready, for example:
+<p align="center"><img src="docs/screenshots/dashboard.png" width="720" alt="ESS dashboard"></p>
+-->
 
 ---
 
+<a id="features"></a>
 ## ✨ Features
 
 ### 📡 Live Monitoring
-| | Feature | Details |
+
+| | Metric | Details |
 |---|---|---|
-| ⚡ | **Ping** | Runs on the `Real Network Adapter` with no False Timeouts. |
-| 📉 | **Packet Loss** | Real-Time Loss Metrics |
-| 🌊 | **Jitter** | Real-Time `Jitter` Analysis |
-| ⬇️⬆️ | **DL / UL** | Real-Time `Download & Upload` Metrics |
-| 🌐 | **ISP & IP** | Clean `Internet <IP>` Status, and `Your <ISP>` |
+| ⚡ | **Ping** | Measured on the real network adapter, with no false timeouts |
+| 🌊 | **Jitter** | Real-time jitter analysis |
+| 📉 | **Packet loss** | Real-time loss metrics |
+| ⬇️⬆️ | **Download / Upload** | Real-time speed metrics |
+| 🌐 | **IP & ISP** | Clear view of your current IP and your ISP |
 
 ### 🖥️ ESS Overlay
+
 - 📌 Always on top, **even above fullscreen apps**
-- 🔄 Appears automatically at app start
-- 🎛️ Live settings with **auto-persist**, no Save / Apply / Discard Buttons
+- 🔄 Appears automatically when the app starts
+- 🎛️ Live settings with **auto-save**, no Save / Apply / Discard buttons
 - 🎮 Game-server latency without false disconnects
 
 ### 🔔 Smart Alerts
-- 🚨 **Instant disconnect detection** for the internet
-- 🔁 Fast **Disconnect & Reconnect & HighPing** alerts
-- 🎨 Light & Dark Themes with Alert Sounds
+
+- 🚨 **Instant disconnect detection**
+- 🔁 Fast alerts for **disconnect, reconnect and high ping**
+- 🔊 Alert sounds, in light and dark styles
 
 ### 📊 Data Usage
-- 🧩 **By application**, **By ِDestination**, **By Country**
-- ✅ Real Traffic Only `Smart Detection of Fake Traffic`
-- 🗓️ Data Recorded for Up to **5 Years**
-- 🛰️ **-ESS Service-** Records in the Background, even when the app is Closed
+
+- 🧩 Break down usage **by application**, **by destination** and **by country**
+- ✅ **Real traffic only**, with smart detection of fake traffic
+- 🗓️ History stored for up to **5 years**
+- 🛰️ **ESS Service** keeps recording in the background, even when the app is closed
 
 ### 🗺️ Global Traffic Map
-- 🌍 *Global Traffic Map By HeeSA* with an offline **Net DataBase**
+
+- 🌍 *Global Traffic Map by HeeSA*, powered by an offline network database
 
 ### 🕵️ IP · ISP · Location
-- 🎯 IP Detection Powered by ipmyp.ir, ipapi.co & ipinfo.co
-- ☁️ Cloudflare trace + offline Net DataBase
-- 🔒 Data Security, IP Privacy & Connection Protection
 
-### 🧱 VPN / Proxy & Filter-Breaker Detection
-- 🛡️ Detects VPN and Proxy tools (e.g. Lantern, v2ray-type clients)
-- ⏳ Accurate Detection of VPNs & Proxy Clients
-- 🧾 Instant Connection Reports
+- 🎯 IP detection via **ipmyp.ir**, **ipapi.co** and **ipinfo.co**
+- ☁️ Cloudflare trace combined with the offline network database
+- 🔒 Built with IP privacy and connection protection in mind
+
+### 🧱 VPN / Proxy Detection
+
+- 🛡️ Detects VPN and proxy tools (for example Lantern and v2ray-type clients)
+- ⏳ Accurate identification of VPN and proxy clients
+- 🧾 Instant connection reports
 
 ### 🧰 Tools
+
 - 🚀 **Speed Test**: Cloudflare and Speedtest by Ookla
 - 🧭 **Ping & Trace**: full traceroute with real hop results
 
 ### 🎨 Themes
+
 - 🌑 **Dark** · ☀️ **Light** · 🪟 **Glass** (real Windows Acrylic / Mica)
 
 ---
 
+<a id="how-it-works"></a>
 ## 🧭 How it works
 
-```
-                  ┌──────────────────┐
-                  │  Network Adapter │
-                  └────────┬─────────┘
-                           │
-                           ▼
-                  ┌──────────────────┐
-                  │    ESS Engine    │
-                  │ DL/UL/Ping/Loss  │
-                  └────────┬─────────┘
-                           │
-              ┌────────────┴────────────┐
-              ▼                         ▼
-     ┌──────────────────┐      ┌──────────────────┐
-     │ Overlay · Alerts │      │   ESS Service    │
-     │ Monitoring · UI  │      │ Data Usage DB    │
-     └──────────────────┘      │ Background       │
-                               │ Traffic Recorder │
-                               └──────────────────┘
+```mermaid
+flowchart TD
+    A["🔌 Network Adapter"] --> B["⚙️ ESS Engine<br/>DL · UL · Ping · Loss"]
+    B --> C["🖥️ Overlay · Alerts<br/>Monitoring UI"]
+    B --> D["🛰️ ESS Service<br/>Background traffic recorder<br/>Data usage DB"]
 ```
 
 ---
 
+<a id="getting-started"></a>
 ## 🚀 Getting started
 
-1. 📥 Download the latest installer, choose your preferred installation location, and Run the EXE file.
-2. ▶️ Run **`HeeSA Everwatch Signal System.exe`**.
-3. 🔐 Read the information on the "Yes, Enable" screen and confirm to continue.
-4. 🟢 Enable **Start with Windows** and **Keep running in the tray** to let ESS quietly watch your network from boot.
+1. 📥 Download the latest installer from the [Releases](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest) page, choose an install location and run the EXE.
+2. ▶️ Launch **HeeSA Everwatch Signal System.exe**.
+3. 🔐 Read the information on the **"Yes, Enable"** screen and confirm to continue.
+4. 🟢 Turn on **Start with Windows** and **Keep running in the tray** so ESS watches your network from boot.
 
 **Requirements**
+
 - 🪟 Windows
 - 🌐 Microsoft Edge **WebView2 Runtime** (Evergreen)
 
 ---
 
+<a id="folder-layout"></a>
 ## 🗂️ Folder layout
 
-```
+```text
 HeeSA Everwatch Signal System/
 ├── 🚀 HeeSA Everwatch Signal System.exe
 ├── 🗑️ Uninstall ESS.exe
@@ -134,13 +146,16 @@ HeeSA Everwatch Signal System/
 
 ---
 
+<a id="reliability"></a>
 ## 🛡️ Reliability
 
-- 🪵 One unified **Crash Log** (`ESS Crash Log.log`) with a **Crash Log.exe** viewer, built-in **Run diagnosis** and exportable crash reports
-- 🧹 Clean **Uninstall ESS.exe**
+- 🪵 One unified crash log (`ESS Crash Log.log`) with a **Crash Log.exe** viewer
+- 🩺 Built-in **Run diagnosis** and exportable crash reports
+- 🧹 Clean removal with **Uninstall ESS.exe**
 
 ---
 
+<a id="contact"></a>
 ## 📬 Contact
 
 | | |
@@ -156,6 +171,6 @@ HeeSA Everwatch Signal System/
 
 ⭐ If ESS is useful to you, give the project a star!
 
-<a href="README.fa.md">🇮🇷 مشاهده به فارسی</a>
+<a href="./README.fa.md">🇮🇷 مشاهده به فارسی</a>
 
 </div>
