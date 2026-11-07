@@ -2,9 +2,7 @@
 
 # 🛰️ HeeSA Everwatch Signal System
 
-### **ESS** · Network Intelligence System for Windows
-
-*See your connection. Trust your connection. Always.*
+### **ESS** · ّFree Network Intelligence System for Windows
 
 <br>
 
