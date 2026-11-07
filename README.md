@@ -8,17 +8,10 @@
 
 <br>
 
-<a href="./README.md"><img src="https://img.shields.io/badge/🇬🇧_English-0A84FF?style=for-the-badge&labelColor=0B1220" alt="English"></a>
-&nbsp;
-<a href="./README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-1F2937?style=for-the-badge&labelColor=0B1220" alt="Persian"></a>
-
-<br><br>
-
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![WebView2](https://img.shields.io/badge/UI-WebView2-00B7C3?style=flat-square&logo=microsoftedge&logoColor=white)
 ![Themes](https://img.shields.io/badge/Themes-Dark_·_Light_·_Glass-8B5CF6?style=flat-square)
-![Docs](https://img.shields.io/badge/Docs-EN_·_FA-F59E0B?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-22C55E?style=flat-square)
 
 <br>
@@ -27,7 +20,7 @@
 
 <br>
 
-[Features](#features) · [How it works](#how-it-works) · [Getting started](#getting-started) · [Folder layout](#folder-layout) · [Reliability](#reliability) · [Contact](#contact)
+[✨ Features](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System#features) · [🧭 How it works](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System#how-it-works) · [🚀 Getting started](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System#getting-started) · [🗂️ Folder layout](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System#folder-layout) · [🛡️ Reliability](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System#reliability) · [📬 Contact](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System#contact)
 
 </div>
 
@@ -41,9 +34,86 @@
 It measures **ping, jitter, packet loss, download and upload speed** on the **real physical adapter**, alerts you the moment the internet drops, shows **which apps and destinations** use your data, and keeps a clean overlay on your screen.
 
 <!--
-📸 Add screenshots here once ready, for example:
-<p align="center"><img src="docs/screenshots/dashboard.png" width="720" alt="ESS dashboard"></p>
+═══════════════════════════════════════════════════════════
+ GALLERY GUIDE
+ 1. Create the folder  docs/media/  in your repo.
+ 2. Upload your files there using EXACTLY the names below
+    (or change the src paths in each slot).
+ 3. Delete the "placehold.co" URL and keep only the docs/media path.
+ Tips: PNG for screenshots, GIF for short demos, ~1280×720 (16:9),
+       keep each file under ~5 MB so the page loads fast.
+═══════════════════════════════════════════════════════════
 -->
+
+<details>
+<summary><b>🖼️ Screenshots & demos</b> &nbsp;·&nbsp; click to open, then pick a view</summary>
+
+<br>
+
+<details>
+<summary>📊 &nbsp;Dashboard</summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
+  <img src="https://placehold.co/1280x720/0B1220/0A84FF?text=SLOT+1+%7C+docs%2Fmedia%2F01-dashboard.png" width="760" alt="ESS dashboard">
+</p>
+</details>
+
+<details>
+<summary>🖥️ &nbsp;Overlay in action (GIF)</summary>
+<br>
+<p align="center">
+  <!-- 🎞️ SLOT 2 → docs/media/02-overlay.gif -->
+  <img src="https://placehold.co/1280x720/0B1220/22C55E?text=SLOT+2+%7C+docs%2Fmedia%2F02-overlay.gif" width="760" alt="ESS overlay over a fullscreen game">
+</p>
+</details>
+
+<details>
+<summary>🔔 &nbsp;Smart alerts (GIF)</summary>
+<br>
+<p align="center">
+  <!-- 🎞️ SLOT 3 → docs/media/03-alerts.gif -->
+  <img src="https://placehold.co/1280x720/0B1220/F59E0B?text=SLOT+3+%7C+docs%2Fmedia%2F03-alerts.gif" width="760" alt="Disconnect and reconnect alerts">
+</p>
+</details>
+
+<details>
+<summary>📈 &nbsp;Data usage</summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 4 → docs/media/04-data-usage.png -->
+  <img src="https://placehold.co/1280x720/0B1220/8B5CF6?text=SLOT+4+%7C+docs%2Fmedia%2F04-data-usage.png" width="760" alt="Data usage by app, destination and country">
+</p>
+</details>
+
+<details>
+<summary>🗺️ &nbsp;Global traffic map</summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 5 → docs/media/05-traffic-map.png -->
+  <img src="https://placehold.co/1280x720/0B1220/00B7C3?text=SLOT+5+%7C+docs%2Fmedia%2F05-traffic-map.png" width="760" alt="Global traffic map">
+</p>
+</details>
+
+<details>
+<summary>🧰 &nbsp;Speed test & traceroute</summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 6 → docs/media/06-tools.png -->
+  <img src="https://placehold.co/1280x720/0B1220/0078D4?text=SLOT+6+%7C+docs%2Fmedia%2F06-tools.png" width="760" alt="Speed test and traceroute tools">
+</p>
+</details>
+
+<details>
+<summary>🎨 &nbsp;Themes: Dark · Light · Glass</summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 7 → docs/media/07-themes.png -->
+  <img src="https://placehold.co/1280x720/0B1220/E5E7EB?text=SLOT+7+%7C+docs%2Fmedia%2F07-themes.png" width="760" alt="Dark, Light and Glass themes">
+</p>
+</details>
+
+</details>
 
 ---
 
@@ -170,7 +240,5 @@ HeeSA Everwatch Signal System/
 **Made with 💙 by HeeSA**
 
 ⭐ If ESS is useful to you, give the project a star!
-
-<a href="./README.fa.md">🇮🇷 مشاهده به فارسی</a>
 
 </div>
