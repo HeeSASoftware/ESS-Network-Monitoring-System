@@ -55,7 +55,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <br>
 <p align="center">
   <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
-  <img src="https://placehold.co/1280x720/0B1220/0A84FF?text=SLOT+1+%7C+docs%2Fmedia%2F01-dashboard.png" width="760" alt="ESS dashboard">
+  <img src="https://https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/blob/main/docs/media/About.png" width="760" alt="ESS dashboard">
 </p>
 </details>
 
