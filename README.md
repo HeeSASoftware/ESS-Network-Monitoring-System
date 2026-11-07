@@ -8,7 +8,7 @@
 
 <a href="./README.md"><img src="https://img.shields.io/badge/🇬🇧_English-0A84FF?style=for-the-badge&labelColor=0B1220" alt="English"></a>
 &nbsp;
-<a href="./README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-1F2937?style=for-the-badge&labelColor=0B1220" alt="فارسی"></a>
+<a href="./README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_Persian-1F2937?style=for-the-badge&labelColor=0B1220" alt="فارسی"></a>
 
 <br><br>
 
