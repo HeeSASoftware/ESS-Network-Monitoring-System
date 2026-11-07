@@ -37,7 +37,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <br>
 
 <details>
-<summary>📊 &nbsp;Status</summary>
+<summary>📡 &nbsp;Status</summary>
 <br>
 <p align="center">
   <img <img src="docs/media/Status.png" width="760" alt="Status ESS">
@@ -46,7 +46,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 
 
 <details>
-<summary>📊 &nbsp;VPN MODE</summary>
+<summary>🛡️ &nbsp;VPN MODE</summary>
 <br>
 <p align="center">
   <img <img src="docs/media/VPN MODE.png" width="760" alt="VPN MODE">
@@ -86,7 +86,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 </details>
 
 <details>
-<summary>🧰 &nbsp;Speed test </summary>
+<summary>🚀 &nbsp;Speed test </summary>
 <br>
 <p align="center">
   <img <img src="docs/media/SpeedTest.png" width="760" alt="SpeedTest tools">
@@ -94,15 +94,15 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 </details>
 
 <details>
-<summary>🧰 &nbsp;Trace Route </summary>
+<summary>🔎 &nbsp;DNS </summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/TraceRoute.png" width="760" alt="TraceRoute tools">
+  <img <img src="docs/media/DNS.png" width="760" alt="DNS tools">
 </p>
 </details>
 
 <details>
-<summary>📊 &nbsp;Settings</summary>
+<summary>⚙️ &nbsp;Settings</summary>
 <br>
 <p align="center">
   <img <img src="docs/media/Settings.png" width="760" alt="Settings">
