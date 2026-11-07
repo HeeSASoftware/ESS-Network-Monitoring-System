@@ -88,15 +88,24 @@ It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real 
 ## 🧭 How it works
 
 ```
- ┌──────────────┐      ┌─────────────────┐      ┌───────────────────┐
- │  Network    │ ──▶  │    ESS Engine   │ ──▶  │  Overlay · Alerts│
- │  Adapter     │      │ DL/UP/Ping/Loss │      │  Monitoring · UI  │
- └──────────────┘      └───────┬─────────┘      └───────────────────┘
-                               │
-                       ┌───────▼────────┐
-                       │  ESS Service   │  Background Fast
-                       │  Data Usage DB │  Traffic Recorder
-                       └────────────────┘
+                  ┌──────────────────┐
+                  │  Network Adapter │
+                  └────────┬─────────┘
+                           │
+                           ▼
+                  ┌──────────────────┐
+                  │    ESS Engine    │
+                  │ DL/UL/Ping/Loss  │
+                  └────────┬─────────┘
+                           │
+              ┌────────────┴────────────┐
+              ▼                         ▼
+     ┌──────────────────┐      ┌──────────────────┐
+     │ Overlay · Alerts │      │   ESS Service    │
+     │ Monitoring · UI  │      │ Data Usage DB    │
+     └──────────────────┘      │ Background       │
+                               │ Traffic Recorder │
+                               └──────────────────┘
 ```
 
 ---
