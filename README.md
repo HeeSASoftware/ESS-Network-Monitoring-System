@@ -51,11 +51,21 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <br>
 
 <details>
-<summary>📊 &nbsp;Dashboard</summary>
+<summary>📊 &nbsp;Status</summary>
 <br>
 <p align="center">
   <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
   <img <img src="docs/media/Status.png" width="760" alt="Status ESS"> alt="ESS Status">
+</p>
+</details>
+
+
+<details>
+<summary>📊 &nbsp;VPN MODE</summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
+  <img <img src="docs/media/VPN MODE.png" width="760" alt="VPN MODE"> alt="VPN MODE">
 </p>
 </details>
 
@@ -64,7 +74,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <br>
 <p align="center">
   <!-- 🎞️ SLOT 2 → docs/media/02-overlay.gif -->
-  <img <img src="docs/media/Overlay.png" width="760" alt="ESS overlay">
+  <img <img src="docs/media/ESS Overlay.png" width="760" alt="ESS overlay">
 </p>
 </details>
 
@@ -110,6 +120,15 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <p align="center">
   <!-- 📸 SLOT 6 → docs/media/06-tools.png -->
   <img <img src="docs/media/TraceRoute.png" width="760" alt="TraceRoute tools">
+</p>
+</details>
+
+<details>
+<summary>📊 &nbsp;Settings</summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 1 → docs/media/01-dashboard.png -->
+  <img <img src="docs/media/Settings.png" width="760" alt="Settings"> alt="Settings">
 </p>
 </details>
 
