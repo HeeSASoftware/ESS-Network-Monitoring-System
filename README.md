@@ -36,11 +36,13 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 </p>
 
 <p align="center">
-  <a href="https://heesasoftware.github.io/ESS-Network-Monitoring-System/"><b>▶️ &nbsp;Open the interactive gallery</b></a> &nbsp;·&nbsp; <i>screenshots & demos with next / previous arrows</i>
+  <a href="https://heesasoftware.github.io/ESS-Network-Monitoring-System/"><img src="https://img.shields.io/badge/🖼️_Open_Interactive_Gallery-Screenshots_%26_Demos-0A84FF?style=for-the-badge&labelColor=0B1220" alt="Open the interactive gallery"></a>
 </p>
 
+<p align="center"><sub>Use the arrows or swipe to browse every screen and demo</sub></p>
+
 <details>
-<summary><b>🖼️ &nbsp;Screenshots & Demos</b> &nbsp;<i>(click to expand)</i></summary>
+<summary><b>🔽 &nbsp;Quick previews</b> &nbsp;<i>(click to expand)</i></summary>
 
 <br>
 
