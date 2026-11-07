@@ -49,21 +49,19 @@ It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real 
 ### 🖥️ ESS Overlay
 - 📌 Always on top, **even above fullscreen apps**
 - 🔄 Appears automatically at app start
-- 🎛️ Live settings with **auto-persist**, no Save / Apply / Discard buttons
-- 🎮 Game-server latency without false disconnects (UDP / TCP fallback)
+- 🎛️ Live settings with **auto-persist**, no Save / Apply / Discard Buttons
+- 🎮 Game-server latency without false disconnects
 
 ### 🔔 Smart Alerts
-- 🚨 **Instant disconnect detection** for the internal (domestic) internet
-- 🧠 Losing `8.8.8.8` alone does **not** trigger a false alarm
-- 🔁 Fast **IP change** alerts
-- 🎉 Decorated startup notification: *iHeeSA+ · Network Intelligence System · is working*
-- 🎨 Available in all alert themes
+- 🚨 **Instant disconnect detection** for the internet
+- 🔁 Fast **Disconnect & Reconnect & HighPing** alerts
+- 🎨 Light & Dark Themes with Alert Sounds
 
 ### 📊 Data Usage
-- 🧩 **By application**, **By destination**, **By country**
-- ✅ Real traffic only, even when a VPN is active (no duplicated services)
-- 🗓️ Up to **5 years** of history using compact monthly files
-- 🛰️ **ESS Service** records in the background, even when the app is closed
+- 🧩 **By application**, **By ِDestination**, **By Country**
+- ✅ Real Traffic Only · `Smart Detection of Fake Traffic`
+- 🗓️ Data Recorded for Up to **5 Years**
+- 🛰️ **ESS Service** Records in the Background, even when the app is Closed
 
 ### 🗺️ Global Traffic Map
 - 🌍 *Global Traffic Map By HeeSA* with an offline **Net DataBase**
