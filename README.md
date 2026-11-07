@@ -216,13 +216,36 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 ---
 
 <a id="getting-started"></a>
-## 🚀 Getting started
+## 🚀 Getting Started
 
-h. 📥 Installer: Download the latest installer from the [Releases](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest) page, choose an install location and run the ESS.
-e. 📥 ZIP: Download the latest Heesa Everwatch Signal System ZIP file from the [Releases](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest) page, and extract file
-e. ▶️ Launch **HeeSA Everwatch Signal System.exe**.
-s. 🔐 Read the information on the **"Yes, Enable"** screen and confirm to continue.
-a. 🟢 Turn on **Start with Windows** and **Keep running in the tray** so ESS watches your network from boot.
+### 📥 1. Installer (Recommended)
+
+Download the latest installer from the [**GitHub Releases**](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest) page. Choose your preferred installation location and run the installer.
+
+### 📦 2. ZIP Version
+
+Download the latest **HeeSA Everwatch Signal System ZIP** from the [**GitHub Releases**](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest) page and extract the files.
+
+### ▶️ 3. Launch ESS
+
+Run **HeeSA Everwatch Signal System.exe** to launch the application.
+
+### 🔐 4. Enable ESS
+
+Read the information displayed on the **"Yes, Enable"** screen and confirm to continue.
+
+### 🟢 5. Recommended Settings
+
+For continuous network monitoring, enable the following options:
+
+- **Start with Windows**
+- **Keep running in the tray**
+
+---
+
+🌐 **Official Repository:** [HeeSA Software – ESS Network Monitoring System](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System)
+
+📥 **Download Latest Release:** [Click Here](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest)
 
 **Requirements**
 
