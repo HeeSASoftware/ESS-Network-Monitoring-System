@@ -40,11 +40,11 @@ It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real 
 ### 📡 Live Monitoring
 | | Feature | Details |
 |---|---|---|
-| ⚡ | **Ping** | Measured on the real physical adapter, matching `cmd ping`, with no false timeouts |
-| 📉 | **Packet Loss** | Fine decimal precision, not just rounded steps |
-| 🌊 | **Jitter** | Stable, calm readings |
-| ⬇️⬆️ | **DL / UL** | Always in Mbps, max 3 digits, updating smoothly |
-| 🌐 | **Internet header** | Clean `Internet <IP>` status, or `Internet timeout` when the link is cut |
+| ⚡ | **Ping** | Runs on the `Real Network Adapter` with no False Timeouts. |
+| 📉 | **Packet Loss** | Real-Time Loss Metrics |
+| 🌊 | **Jitter** | Real-Time `Jitter` Analysis |
+| ⬇️⬆️ | **DL / UL** | Real-Time `Download & Upload` Metrics |
+| 🌐 | **ISP & IP** | Clean `Internet <IP>` Status, and `Your <ISP>` |
 
 ### 🖥️ ESS Overlay
 - 📌 Always on top, **even above fullscreen apps**
