@@ -1,16 +1,14 @@
 <div align="center">
 
-# 🛰️ HeeSA Everwatch Signal System
+# Heesa Everwatch Signal System (ESS)
 
-### سامانه رایگان هوشمند پایش شبکه برای ویندوز
-
-*حقیقت اینترنتت رو بدون حدس و گمان بدون.*
+### سامانه رایگان پایش شبکه برای ویندوز
 
 <br>
 
 <a href="./README.md"><img src="https://img.shields.io/badge/🇬🇧_English-1F2937?style=for-the-badge&labelColor=0B1220" alt="English"></a>
 &nbsp;
-<a href="./README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-0A84FF?style=for-the-badge&labelColor=0B1220" alt="Persian"></a>
+<a href="./README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_Persian-0A84FF?style=for-the-badge&labelColor=0B1220" alt="فارسی"></a>
 
 <br><br>
 
@@ -18,7 +16,6 @@
 ![C#](https://img.shields.io/badge/C%23-WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![WebView2](https://img.shields.io/badge/UI-WebView2-00B7C3?style=flat-square&logo=microsoftedge&logoColor=white)
 ![Themes](https://img.shields.io/badge/Themes-Dark_·_Light_·_Glass-8B5CF6?style=flat-square)
-![Docs](https://img.shields.io/badge/Docs-EN_·_FA-F59E0B?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-22C55E?style=flat-square)
 
 <br>
@@ -27,7 +24,7 @@
 
 <br>
 
-[امکانات](#features) · [نحوه کار](#how-it-works) · [شروع سریع](#getting-started) · [ساختار پوشه‌ها](#folder-layout) · [پایداری](#reliability) · [ارتباط](#contact)
+[✨ امکانات](#features) · [🧭 نحوه کار](#how-it-works) · [🚀 شروع سریع](#getting-started) · [🗂️ ساختار پوشه‌ها](#folder-layout) · [🛡️ پایداری](#reliability) · [📬 ارتباط](#contact)
 
 </div>
 
@@ -39,14 +36,98 @@
 
 ## 🌌 ESS چیست؟
 
-**HeeSA Everwatch Signal System (ESS)** یک مانیتور شبکه‌ی حرفه‌ای برای ویندوز است، مخصوص کسانی که جواب دقیق و واقعی درباره‌ی اینترنتشان می‌خواهند.
+**HeeSA Everwatch Signal System (ESS)** یک مانیتور شبکه‌ی حرفه‌ای برای ویندوز است، مخصوص کسانی که پاسخ دقیق درباره‌ی اینترنتشان می‌خواهند.
 
 ESS مقدار **پینگ، جیتر، پکت‌لاس، سرعت دانلود و آپلود** را روی **کارت شبکه‌ی فیزیکی واقعی** اندازه می‌گیرد، لحظه‌ی قطع شدن اینترنت به شما هشدار می‌دهد، نشان می‌دهد **کدام برنامه‌ها و مقصدها** از دیتای شما استفاده می‌کنند و یک اورلی تمیز روی صفحه نگه می‌دارد.
 
-<!--
-📸 اسکرین‌شات‌ها را اینجا اضافه کنید:
-<p align="center"><img src="docs/screenshots/dashboard.png" width="720" alt="ESS dashboard"></p>
--->
+<h2 align="center">👁️ پیش‌نمایش</h2>
+
+<p align="center">
+  <a href="https://heesasoftware.github.io/ESS-Network-Monitoring-System/"><img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Status.png" width="760" alt="صفحه‌ی Status برنامه. برای باز کردن گالری کلیک کنید"></a>
+</p>
+
+<p align="center">
+  <a href="https://heesasoftware.github.io/ESS-Network-Monitoring-System/"><img src="https://img.shields.io/badge/🖼️_Open_Interactive_Gallery-Screenshots_%26_Demos-0A84FF?style=for-the-badge&labelColor=0B1220" alt="باز کردن گالری تعاملی"></a>
+</p>
+
+<details>
+<summary><b>🔽 &nbsp;پیش‌نمایش‌های سریع</b> &nbsp;<i>(برای باز شدن کلیک کنید)</i></summary>
+
+<br>
+
+<details>
+<summary>📡 &nbsp;Status (وضعیت)</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Status.png" width="760" alt="صفحه‌ی Status">
+</p>
+</details>
+
+<details>
+<summary>🛡️ &nbsp;VPN Mode (حالت VPN)</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/VPN%20MODE.png" width="760" alt="حالت VPN">
+</p>
+</details>
+
+<details>
+<summary>🖥️ &nbsp;اورلی در حال کار</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/ESS%20Overlay.png" width="760" alt="اورلی ESS">
+</p>
+</details>
+
+<details>
+<summary>🔔 &nbsp;هشدارهای هوشمند (GIF)</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Notification.gif" width="760" alt="هشدار قطع و وصل شدن اینترنت">
+</p>
+</details>
+
+<details>
+<summary>📈 &nbsp;مصرف دیتا</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/DataUsage.png" width="760" alt="مصرف دیتا به تفکیک برنامه، مقصد و کشور">
+</p>
+</details>
+
+<details>
+<summary>🗺️ &nbsp;نقشه‌ی جهانی ترافیک (GIF)</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/NetworkMap.gif" width="760" alt="نقشه‌ی جهانی ترافیک">
+</p>
+</details>
+
+<details>
+<summary>🚀 &nbsp;تست سرعت</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/SpeedTest.png" width="760" alt="ابزار تست سرعت">
+</p>
+</details>
+
+<details>
+<summary>🔎 &nbsp;DNS</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/DNS.png" width="760" alt="ابزار DNS">
+</p>
+</details>
+
+<details>
+<summary>⚙️ &nbsp;تنظیمات</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Settings.png" width="760" alt="تنظیمات">
+</p>
+</details>
+
+</details>
 
 ---
 
@@ -115,12 +196,34 @@ ESS مقدار **پینگ، جیتر، پکت‌لاس، سرعت دانلود �
 
 ## 🧭 نحوه کار
 
-```mermaid
-flowchart TD
-    A["🔌 کارت شبکه"] --> B["⚙️ موتور ESS<br/>DL · UL · Ping · Loss"]
-    B --> C["🖥️ اورلی · هشدارها<br/>رابط پایش"]
-    B --> D["🛰️ سرویس ESS<br/>ثبت ترافیک در پس‌زمینه<br/>پایگاه‌داده‌ی مصرف"]
+</div>
+
+<div dir="ltr">
+
+```text
+                ┌──────────────────┐
+                │ Network Adapter  │
+                └────────┬─────────┘
+                         │
+                         ▼
+                ┌──────────────────┐
+                │    ESS Engine    │
+                │ DL/UL/Ping/Loss  │
+                └────────┬─────────┘
+                         │
+            ┌────────────┴────────────┐
+            ▼                         ▼
+   ┌──────────────────┐      ┌──────────────────┐
+   │ Overlay · Alerts │      │   ESS Service    │
+   │ Monitoring · UI  │      │  Data Usage DB   │
+   └──────────────────┘      │ Background       │
+                             │ Traffic Recorder │
+                             └──────────────────┘
 ```
+
+</div>
+
+<div dir="rtl" align="right">
 
 ---
 
@@ -131,11 +234,11 @@ flowchart TD
 1. 📥 آخرین نصاب را از صفحه‌ی [Releases](https://github.com/HeeSASoftware/ESS-Network-Monitoring-System/releases/latest) دانلود کنید، محل نصب را انتخاب کنید و فایل EXE را اجرا کنید.
 2. ▶️ برنامه‌ی **HeeSA Everwatch Signal System.exe** را باز کنید.
 3. 🔐 توضیحات صفحه‌ی **«Yes, Enable»** را بخوانید و برای ادامه تأیید کنید.
-4. 🟢 گزینه‌های **Start with Windows** و **Keep running in the tray** را فعال کنید تا ESS از لحظه‌ی بوت ویندوز بی‌صدا شبکه را زیر نظر داشته باشد.
+4. 🟢 گزینه‌های **Start with Windows** و **Keep running in the tray** را فعال کنید تا ESS از لحظه‌ی بوت ویندوز شبکه را زیر نظر داشته باشد.
 
 **پیش‌نیازها**
 
-- 🪟 ویندوز
+- 🪟 ویندوز ۱۰ یا ۱۱ (۶۴ بیتی)
 - 🌐 **WebView2 Runtime** مایکروسافت اج (نسخه‌ی Evergreen)
 
 ---
@@ -189,7 +292,5 @@ HeeSA Everwatch Signal System/
 **ساخته‌شده با 💙 توسط HeeSA**
 
 ⭐ اگر ESS به دردتان خورد، به پروژه ستاره بدهید!
-
-<a href="./README.md">🇬🇧 View in English</a>
 
 </div>
