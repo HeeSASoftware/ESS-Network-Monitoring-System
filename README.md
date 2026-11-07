@@ -65,7 +65,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🔔 &nbsp;Smart Alerts (GIF)</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/Alert.png" width="760" alt="Disconnect and reconnect alerts">
+  <img <img src="docs/media/Notification.gif" width="760" alt="Disconnect and reconnect alerts">
 </p>
 </details>
 
@@ -81,7 +81,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🗺️ &nbsp;Global traffic Map(GIF)</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/Network Map.png" width="760" alt="Global traffic Map">
+  <img <img src="docs/media/NetworkMapGIF.gif" width="760" alt="Global traffic Map">
 </p>
 </details>
 
