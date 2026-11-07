@@ -60,20 +60,20 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 </details>
 
 <details>
-<summary>🖥️ &nbsp;Overlay in action (GIF)</summary>
+<summary>🖥️ &nbsp;Overlay in action </summary>
 <br>
 <p align="center">
   <!-- 🎞️ SLOT 2 → docs/media/02-overlay.gif -->
-  <img src="https://placehold.co/1280x720/0B1220/22C55E?text=SLOT+2+%7C+docs%2Fmedia%2F02-overlay.gif" width="760" alt="ESS overlay over a fullscreen game">
+  <img <img src="docs/media/Overlay.png" width="760" alt="ESS overlay">
 </p>
 </details>
 
 <details>
-<summary>🔔 &nbsp;Smart alerts (GIF)</summary>
+<summary>🔔 &nbsp;Smart Alerts (GIF)</summary>
 <br>
 <p align="center">
   <!-- 🎞️ SLOT 3 → docs/media/03-alerts.gif -->
-  <img src="https://placehold.co/1280x720/0B1220/F59E0B?text=SLOT+3+%7C+docs%2Fmedia%2F03-alerts.gif" width="760" alt="Disconnect and reconnect alerts">
+  <img <img src="docs/media/Alert.png" width="760" alt="Disconnect and reconnect alerts">
 </p>
 </details>
 
@@ -82,25 +82,34 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <br>
 <p align="center">
   <!-- 📸 SLOT 4 → docs/media/04-data-usage.png -->
-  <img src="https://placehold.co/1280x720/0B1220/8B5CF6?text=SLOT+4+%7C+docs%2Fmedia%2F04-data-usage.png" width="760" alt="Data usage by app, destination and country">
+  <img <img src="docs/media/DataUsage.png" width="760" alt="Data usage by app, destination and country">
 </p>
 </details>
 
 <details>
-<summary>🗺️ &nbsp;Global traffic map</summary>
+<summary>🗺️ &nbsp;Global traffic Map</summary>
 <br>
 <p align="center">
   <!-- 📸 SLOT 5 → docs/media/05-traffic-map.png -->
-  <img src="https://placehold.co/1280x720/0B1220/00B7C3?text=SLOT+5+%7C+docs%2Fmedia%2F05-traffic-map.png" width="760" alt="Global traffic map">
+  <img <img src="docs/media/Network Map.png" width="760" alt="Global traffic Map">
 </p>
 </details>
 
 <details>
-<summary>🧰 &nbsp;Speed test & traceroute</summary>
+<summary>🧰 &nbsp;Speed test </summary>
 <br>
 <p align="center">
   <!-- 📸 SLOT 6 → docs/media/06-tools.png -->
-  <img src="https://placehold.co/1280x720/0B1220/0078D4?text=SLOT+6+%7C+docs%2Fmedia%2F06-tools.png" width="760" alt="Speed test and traceroute tools">
+  <img <img src="docs/media/SpeedTest.png" width="760" alt="SpeedTest tools">
+</p>
+</details>
+
+<details>
+<summary>🧰 &nbsp;Trace Route </summary>
+<br>
+<p align="center">
+  <!-- 📸 SLOT 6 → docs/media/06-tools.png -->
+  <img <img src="docs/media/TraceRoute.png" width="760" alt="TraceRoute tools">
 </p>
 </details>
 
