@@ -65,7 +65,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🔔 &nbsp;Smart Alerts (GIF)</summary>
 <br>
 <p align="center">
-  <img src="docs/media/Notification.gif" width="760" alt="Disconnect and reconnect alerts">
+<img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Notification.gif" width="760" alt="Disconnect and reconnect alerts">
 </p>
 </details>
 
