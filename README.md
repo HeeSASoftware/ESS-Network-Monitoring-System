@@ -6,6 +6,12 @@
 
 <br>
 
+<a href="./README.md"><img src="https://img.shields.io/badge/🇬🇧_English-0A84FF?style=for-the-badge&labelColor=0B1220" alt="English"></a>
+&nbsp;
+<a href="./README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-1F2937?style=for-the-badge&labelColor=0B1220" alt="فارسی"></a>
+
+<br><br>
+
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![WebView2](https://img.shields.io/badge/UI-WebView2-00B7C3?style=flat-square&logo=microsoftedge&logoColor=white)
