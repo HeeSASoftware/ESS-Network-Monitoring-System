@@ -1,257 +1,165 @@
-# ESS — Kisa Everwatch Signal System
+<div align="center">
 
-<p align="center">
-  <img src="assets/ess-logo.png" alt="ESS Logo" width="150">
-</p>
+# 🛰️ HeeSA Everwatch Signal System
 
-<h3 align="center">ADVANCED NETWORK MONITORING & DIAGNOSTICS</h3>
+### **ESS** · Network Intelligence System for Windows
 
-<p align="center">
-  **Monitor. Analyze. Understand.**
-  <br>
-  A clearer view of your network.
-</p>
+*See your connection. Trust your connection. Always.*
 
-<p align="center">
-  <a href="#english">🇬🇧 English</a>
-  &nbsp;•&nbsp;
-  <a href="#persian">🇮🇷 Persian</a>
-</p>
+<br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white">
-  <img src="https://img.shields.io/badge/Category-Network%20Monitoring-orange?style=flat-square">
-  <img src="https://img.shields.io/badge/Focus-Performance%20%26%20Diagnostics-black?style=flat-square">
-  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square">
-</p>
+<a href="README.md"><img src="https://img.shields.io/badge/🇬🇧_English-0A84FF?style=for-the-badge&labelColor=0B1220" alt="English"></a>
+&nbsp;
+<a href="README.fa.md"><img src="https://img.shields.io/badge/🇮🇷_فارسی-1F2937?style=for-the-badge&labelColor=0B1220" alt="Persian"></a>
+
+<br><br>
+
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![WebView2](https://img.shields.io/badge/UI-WebView2-00B7C3?style=flat-square&logo=microsoftedge&logoColor=white)
+![Themes](https://img.shields.io/badge/Themes-Dark_·_Light_·_Glass-8B5CF6?style=flat-square)
+![Languages](https://img.shields.io/badge/Docs-EN_·_FA-F59E0B?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-22C55E?style=flat-square)
+
+<br>
+
+[✨ Features](#-features) · [🧭 How it works](#-how-it-works) · [🚀 Getting started](#-getting-started) · [🗂️ Folder layout](#️-folder-layout) · [🛡️ Reliability](#️-reliability) · [📬 Contact](#-contact)
+
+</div>
 
 ---
 
-<a id="english"></a>
+## 🌌 What is ESS?
 
-# 🇬🇧 English
+**HeeSA Everwatch Signal System (ESS)** is a premium Windows network monitor built for people who need the *truth* about their connection, not a guess.
 
-## 🌐 Overview
+It measures ping, jitter, packet loss and speed on the **real physical adapter** (before any VPN), tells you instantly when the internet drops, shows exactly **which apps and destinations** use your data, and keeps a clean overlay on your screen, **even above fullscreen games**.
 
-**ESS (Kisa Everwatch Signal System)** is a modern Windows-based network monitoring and diagnostics system designed to deliver clear, reliable, and meaningful insights into network performance and connectivity.
+> 💡 One app. One glance. Complete awareness.
 
-Built around **Performance, Diagnostics, and Network Visibility**, ESS brings essential network tools and real-time connection information into one unified environment.
+---
 
-From monitoring connection quality to exploring network routes, ESS provides a practical way to understand what is happening behind your internet connection.
+## ✨ Features
 
-## ⚡ Core Features
+### 📡 Live Monitoring
+| | Feature | Details |
+|---|---|---|
+| ⚡ | **Ping** | Measured on the real physical adapter, matching `cmd ping`, with no false timeouts |
+| 📉 | **Packet Loss** | Fine decimal precision, not just rounded steps |
+| 🌊 | **Jitter** | Stable, calm readings |
+| ⬇️⬆️ | **DL / UL** | Always in Mbps, max 3 digits, updating smoothly |
+| 🌐 | **Internet header** | Clean `Internet <IP>` status, or `Internet timeout` when the link is cut |
 
-### 📡 Real-Time Network Monitoring
-Monitor network activity and connection performance with continuously updated information.
+### 🖥️ ESS Overlay
+- 📌 Always on top, **even above fullscreen apps**
+- 🔄 Appears automatically at app start
+- 🎛️ Live settings with **auto-persist**, no Save / Apply / Discard buttons
+- 🎮 Game-server latency without false disconnects (UDP / TCP fallback)
 
-### 🧭 Network Route Discovery
-Discover and examine the path between your device and remote destinations.
+### 🔔 Smart Alerts
+- 🚨 **Instant disconnect detection** for the internal (domestic) internet
+- 🧠 Losing `8.8.8.8` alone does **not** trigger a false alarm
+- 🔁 Fast **IP change** alerts
+- 🎉 Decorated startup notification: *iHeeSA+ · Network Intelligence System · is working*
+- 🎨 Available in all alert themes
 
-### 🔍 Live Traceroute
-Inspect individual network hops and analyze how data travels across the network.
+### 📊 Data Usage
+- 🧩 **By application**, **By destination**, **By country**
+- ✅ Real traffic only, even when a VPN is active (no duplicated services)
+- 🗓️ Up to **5 years** of history using compact monthly files
+- 🛰️ **ESS Service** records in the background, even when the app is closed
 
-### 📊 Ping & Packet Loss Analysis
-Measure response times, monitor latency, and identify packet loss to better understand connection quality.
+### 🗺️ Global Traffic Map
+- 🌍 *Global Traffic Map By HeeSA* with an offline **Net DataBase**
+- 🏷️ Adapter labels (LAN) / (USB) for physical adapters only
 
-### 🔗 Connection Path Visualization
-Visualize connection routes through a clean and intuitive interface designed to make network paths easier to understand.
+### 🕵️ IP · ISP · Location
+- 🎯 Stable detection with few, ordered providers
+- ☁️ Cloudflare trace + offline Net DataBase
+- 🔒 No unreliable third-party flip-flopping
 
-### 🎮 ESS Overlay
-Access essential network statistics through a lightweight desktop overlay, including connection information while gaming.
+### 🧱 VPN / Proxy & Filter-Breaker Detection
+- 🛡️ Detects VPN and proxy tools (e.g. Lantern, v2ray-type clients)
+- ⏳ Hold and grace timers so the badge doesn't flicker
+- 🧾 Detailed trace lines in the Crash Log for diagnosis
 
-## 🎯 Design Philosophy
+### 🧰 Tools
+- 🚀 **Speed Test**: Cloudflare and Speedtest by Ookla (no installs per run)
+- 🧭 **Ping & Trace**: full traceroute with real hop results
 
-ESS is built on three core principles:
+### 🎨 Themes
+- 🌑 **Dark** · ☀️ **Light** · 🪟 **Glass** (real Windows Acrylic / Mica)
 
-| Principle | Description |
+---
+
+## 🧭 How it works
+
+```
+ ┌──────────────┐     ┌────────────────┐     ┌─────────────────┐
+ │  Physical    │ ──▶ │   ESS Engine   │ ──▶ │  Overlay · Alerts│
+ │  Adapter     │     │ ping·loss·DL/UL│     │  Monitoring · UI │
+ └──────────────┘     └───────┬────────┘     └─────────────────┘
+                              │
+                      ┌───────▼────────┐
+                      │  ESS Service   │  background recorder
+                      │  Data Usage DB │  monthly files · 5 years
+                      └────────────────┘
+```
+
+---
+
+## 🚀 Getting started
+
+1. 📥 Download the latest release and extract the **`HeeSA Everwatch Signal System`** folder.
+2. ▶️ Run **`HeeSA Everwatch Signal System.exe`**.
+3. 🪄 The overlay appears automatically. Open Settings to choose your theme and options.
+4. 🟢 Enable **Start with Windows** and **Keep running in the tray** to let ESS quietly watch your network from boot.
+
+**Requirements**
+- 🪟 Windows
+- 🌐 Microsoft Edge **WebView2 Runtime** (Evergreen)
+
+> 📦 The program folder is **portable**: copy it to another PC and run it. It does not depend on files outside its folder.
+
+---
+
+## 🗂️ Folder layout
+
+```
+HeeSA Everwatch Signal System/
+├── 🚀 HeeSA Everwatch Signal System.exe
+├── 🗑️ Uninstall ESS.exe
+└── …clean, grouped support folders
+```
+
+Only the main executable and the uninstaller are visible; runtime files are neatly grouped into a few clearly named folders.
+
+---
+
+## 🛡️ Reliability
+
+- 🪵 One unified **Crash Log** (`ESS Crash Log.log`) with a **Crash Log.exe** viewer, built-in **Run diagnosis** and exportable crash reports
+- 🧹 Clean **Uninstall ESS.exe**
+- 🧊 Calm UI: no jumpy numbers, no false alarms
+
+---
+
+## 📬 Contact
+
+| | |
 |---|---|
-| ⚡ Performance | Efficient access to network information. |
-| 🔍 Diagnostics | Better understanding of network behavior and connection issues. |
-| 🌐 Visibility | Clear presentation of network activity and connection paths. |
-
-## 🖥️ Screenshots
-
-Explore the ESS interface and its capabilities.
-
-<!-- Replace these placeholders with actual screenshots -->
-
-<p align="center">
-  <img src="assets/screenshots/dashboard.png" alt="ESS Dashboard" width="85%">
-</p>
-
-<p align="center">
-  <sub>ESS — Main Dashboard</sub>
-</p>
-
-## 🛠️ Technology
-
-ESS uses Windows networking capabilities and standard network diagnostic techniques to collect, process, and present connection information.
-
-The goal is to provide meaningful network insights through real network data rather than simulated information.
-
-## 💻 System Requirements
-
-- **Operating System:** Windows
-- **Network Connection:** Required for monitoring external destinations.
-- **Permissions:** Depending on the feature and Windows configuration.
-- **Additional Requirements:** May vary between releases.
-
-## 🚀 Development Roadmap
-
-ESS is continuously evolving. The following roadmap represents planned development areas.
-
-- [x] Network Monitoring Foundation
-- [x] Network Route Discovery
-- [x] Live Traceroute
-- [x] Ping & Packet Loss Monitoring
-- [x] ESS Overlay
-- [ ] Advanced Network Analytics
-- [ ] Extended Diagnostic Tools
-- [ ] Additional Monitoring Capabilities
-- [ ] Performance Optimization
-
-*Roadmap items are subject to change as development progresses.*
-
-## 📦 Installation
-
-Installation instructions and release packages will be provided with the official release.
-
-## 🔒 Privacy & Security
-
-ESS is designed around transparent network monitoring and the use of actual network information.
-
-Features and data handling details will be documented as the project develops.
-
-## 📌 Project Status
-
-**Currently in Development**
-
-ESS is an evolving software project. New features, improvements, and optimizations will be introduced through future updates.
-
-## 📄 License
-
-License information will be announced with the official release.
+| 💬 Telegram channel | [@HeeSA_Software](https://t.me/HeeSA_Software) |
+| 👤 Telegram (private) | [@abolfazlhessari](https://t.me/abolfazlhessari) |
+| 🐙 GitHub | [@HeeSA_Software](https://github.com/HeeSA_Software) |
 
 ---
 
-<p align="center">
+<div align="center">
 
-### ESS — Kisa Everwatch Signal System
+**Made with 💙 by HeeSA**
 
-**Monitor. Analyze. Understand.**
+⭐ If ESS is useful to you, give the project a star!
 
-*Your Network. Your Visibility. Your Control.*
+<a href="README.fa.md">🇮🇷 مشاهده به فارسی</a>
 
-</p>
-
----
-
-<details>
-<summary><strong>🇮🇷 Persian — مشاهده نسخه کامل فارسی</strong></summary>
-
-<a id="persian"></a>
-
-# 🇮🇷 نسخه فارسی
-
-## 🌐 معرفی پروژه
-
-**ESS (Kisa Everwatch Signal System)** یک سیستم مدرن مبتنی بر ویندوز برای نظارت، تحلیل و عیب‌یابی شبکه است که با هدف ارائه اطلاعات دقیق و قابل‌فهم از عملکرد شبکه و وضعیت اتصال طراحی شده است.
-
-ESS با تمرکز بر سه اصل **عملکرد، عیب‌یابی و شفافیت اطلاعات شبکه**، ابزارهای کاربردی و اطلاعات اتصال را در یک محیط یکپارچه گردآوری می‌کند.
-
-از بررسی کیفیت اتصال گرفته تا تحلیل مسیرهای ارتباطی، ESS راهی کاربردی برای درک بهتر اتفاقاتی است که در پشت اتصال اینترنت شما رخ می‌دهند.
-
-## ⚡ قابلیت‌های اصلی
-
-### 📡 نظارت لحظه‌ای بر شبکه
-بررسی فعالیت شبکه و عملکرد اتصال با استفاده از اطلاعات به‌روزشونده.
-
-### 🧭 شناسایی مسیر شبکه
-شناسایی و بررسی مسیر ارتباطی میان دستگاه شما و مقصدهای مختلف در شبکه.
-
-### 🔍 ردیابی زنده مسیر (Live Traceroute)
-بررسی گام‌های مختلف مسیر شبکه و تحلیل نحوه انتقال اطلاعات میان دستگاه و مقصد.
-
-### 📊 تحلیل پینگ و Packet Loss
-اندازه‌گیری زمان پاسخ‌گویی، بررسی تأخیر شبکه و شناسایی بسته‌های ازدست‌رفته برای درک بهتر کیفیت اتصال.
-
-### 🔗 نمایش بصری مسیر اتصال
-نمایش مسیرهای ارتباطی در محیطی ساده و قابل‌فهم برای درک بهتر ساختار ارتباطات شبکه.
-
-### 🎮 ESS Overlay
-دسترسی سریع به اطلاعات ضروری شبکه از طریق یک لایه نمایش سبک روی دسکتاپ، شامل اطلاعات اتصال هنگام اجرای بازی‌ها.
-
-## 🎯 فلسفه طراحی
-
-ESS بر پایه سه اصل اساسی توسعه یافته است:
-
-| اصل | توضیحات |
-|---|---|
-| ⚡ عملکرد | دسترسی کارآمد به اطلاعات شبکه |
-| 🔍 عیب‌یابی | درک بهتر رفتار شبکه و مشکلات اتصال |
-| 🌐 شفافیت | نمایش واضح فعالیت شبکه و مسیرهای ارتباطی |
-
-## 🖥️ تصاویر محیط برنامه
-
-در این بخش می‌توانید تصاویر محیط ESS و قابلیت‌های مختلف آن را مشاهده کنید.
-
-## 🛠️ فناوری
-
-ESS از قابلیت‌های شبکه ویندوز و روش‌های استاندارد عیب‌یابی شبکه برای جمع‌آوری، پردازش و نمایش اطلاعات اتصال استفاده می‌کند.
-
-هدف این پروژه ارائه اطلاعات واقعی و کاربردی از وضعیت شبکه، بدون اتکا به داده‌های شبیه‌سازی‌شده است.
-
-## 💻 پیش‌نیازهای سیستم
-
-- **سیستم‌عامل:** Windows
-- **اتصال اینترنت:** برای نظارت بر مقصدهای خارجی موردنیاز است.
-- **دسترسی‌ها:** بسته به قابلیت مورد استفاده و تنظیمات ویندوز متفاوت است.
-- **سایر پیش‌نیازها:** ممکن است در نسخه‌های مختلف تغییر کنند.
-
-## 🚀 نقشه راه توسعه
-
-ESS به‌صورت مستمر در حال توسعه است. موارد زیر حوزه‌های توسعه فعلی و آینده پروژه را نشان می‌دهند.
-
-- [x] زیرساخت اولیه نظارت بر شبکه
-- [x] شناسایی مسیر شبکه
-- [x] ردیابی زنده مسیر
-- [x] نظارت بر Ping و Packet Loss
-- [x] ESS Overlay
-- [ ] تحلیل پیشرفته شبکه
-- [ ] ابزارهای عیب‌یابی گسترده‌تر
-- [ ] قابلیت‌های نظارتی بیشتر
-- [ ] بهینه‌سازی عملکرد
-
-## 📦 نصب و راه‌اندازی
-
-راهنمای نصب و بسته‌های انتشار هم‌زمان با انتشار رسمی پروژه ارائه خواهند شد.
-
-## 🔒 حریم خصوصی و امنیت
-
-ESS با تمرکز بر نظارت شفاف شبکه و استفاده از اطلاعات واقعی اتصال طراحی شده است.
-
-جزئیات قابلیت‌ها و نحوه مدیریت اطلاعات با پیشرفت پروژه مستند خواهند شد.
-
-## 📌 وضعیت پروژه
-
-**در حال توسعه**
-
-ESS یک پروژه نرم‌افزاری در حال تکامل است و قابلیت‌ها، بهبودها و بهینه‌سازی‌های جدید در نسخه‌های آینده ارائه خواهند شد.
-
-## 📄 مجوز استفاده
-
-اطلاعات مربوط به مجوز استفاده از پروژه هم‌زمان با انتشار رسمی اعلام خواهد شد.
-
----
-
-<p align="center">
-
-### ESS — Kisa Everwatch Signal System
-
-**نظارت کن. تحلیل کن. درک کن.**
-
-*شبکه شما. دید شما. کنترل شما.*
-
-</p>
-
-</details>
+</div>
