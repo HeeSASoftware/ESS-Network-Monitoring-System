@@ -176,25 +176,11 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <a id="how-it-works"></a>
 ## 🧭 How it works
 
-```
-                ┌──────────────────┐
-                │  Network Adapter │
-                └────────┬─────────┘
-                         │
-                         ▼
-                ┌──────────────────┐
-                │    ESS Engine    │
-                │ DL/UL/Ping/Loss  │
-                └────────┬─────────┘
-                         │
-            ┌────────────┴────────────┐
-            ▼                         ▼
-   ┌──────────────────┐      ┌──────────────────┐
-   │ Overlay · Alerts │      │   ESS Service    │
-   │ Monitoring · UI  │      │  Data Usage DB   │
-   └──────────────────┘      │ Background       │
-                             │ Traffic Recorder │
-                             └──────────────────┘
+```mermaid
+flowchart TD
+    A["🔌 Network Adapter"] --> B["⚙️ ESS Engine<br/>DL · UL · Ping · Loss"]
+    B --> C["🖥️ Overlay · Alerts<br/>Monitoring UI"]
+    B --> D["🛰️ ESS Service<br/>Background traffic recorder<br/>Data usage DB"]
 ```
 
 ---
