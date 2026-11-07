@@ -59,9 +59,9 @@ It measures Ping, jitter, Packet Loss and Download & Upload Speed on the **real 
 
 ### 📊 Data Usage
 - 🧩 **By application**, **By ِDestination**, **By Country**
-- ✅ Real Traffic Only · `Smart Detection of Fake Traffic`
+- ✅ Real Traffic Only `Smart Detection of Fake Traffic`
 - 🗓️ Data Recorded for Up to **5 Years**
-- 🛰️ **ESS Service** Records in the Background, even when the app is Closed
+- 🛰️ **<ESS Service>** Records in the Background, even when the app is Closed
 
 ### 🗺️ Global Traffic Map
 - 🌍 *Global Traffic Map By HeeSA* with an offline **Net DataBase**
