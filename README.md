@@ -32,8 +32,13 @@
 It measures **ping, jitter, packet loss, download and upload speed** on the **real physical adapter**, alerts you the moment the internet drops, shows **which apps and destinations** use your data, and keeps a clean overlay on your screen.
 
 <p align="center"><i>👇 Tap below to browse screenshots and demos</i></p>
+
+<table>
+<tr>
+<td>
+
 <details>
-<summary><img src="https://img.shields.io/badge/🖼️_Screenshots_&_Demos-Click_to_open-0A84FF?style=for-the-badge&labelColor=0B1220" alt="Screenshots and demos, click to open"></summary>
+<summary><b>🖼️ &nbsp;SCREENSHOTS & DEMOS</b> &nbsp;·&nbsp; <i>tap to expand 👈</i></summary>
 
 <br>
 
@@ -41,24 +46,23 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>📡 &nbsp;Status</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/Status.png" width="760" alt="Status ESS">
-</p>
-</details>
-
-
-<details>
-<summary>🛡️ &nbsp;VPN MODE</summary>
-<br>
-<p align="center">
-  <img <img src="docs/media/VPN MODE.png" width="760" alt="VPN MODE">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Status.png" width="760" alt="ESS status screen">
 </p>
 </details>
 
 <details>
-<summary>🖥️ &nbsp;Overlay in action </summary>
+<summary>🛡️ &nbsp;VPN Mode</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/ESS Overlay.png" width="760" alt="ESS overlay">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/VPN%20MODE.png" width="760" alt="VPN mode">
+</p>
+</details>
+
+<details>
+<summary>🖥️ &nbsp;Overlay in action</summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/ESS%20Overlay.png" width="760" alt="ESS overlay">
 </p>
 </details>
 
@@ -66,7 +70,7 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>🔔 &nbsp;Smart Alerts (GIF)</summary>
 <br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Notification.gif" width="760" alt="Disconnect and reconnect alerts">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Notification.gif" width="760" alt="Disconnect and reconnect alerts">
 </p>
 </details>
 
@@ -74,31 +78,31 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>📈 &nbsp;Data usage</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/DataUsage.png" width="760" alt="Data usage by app, destination and country">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/DataUsage.png" width="760" alt="Data usage by app, destination and country">
 </p>
 </details>
 
 <details>
-<summary>🗺️ &nbsp;Global traffic Map(GIF)</summary>
+<summary>🗺️ &nbsp;Global Traffic Map (GIF)</summary>
 <br>
 <p align="center">
-  <img src="docs/media/NetworkMap.gif" width="760" alt="Global traffic Map">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/NetworkMap.gif" width="760" alt="Global traffic map">
 </p>
 </details>
 
 <details>
-<summary>🚀 &nbsp;Speed test </summary>
+<summary>🚀 &nbsp;Speed test</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/SpeedTest.png" width="760" alt="SpeedTest tools">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/SpeedTest.png" width="760" alt="Speed test tools">
 </p>
 </details>
 
 <details>
-<summary>🔎 &nbsp;DNS </summary>
+<summary>🔎 &nbsp;DNS</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/DNS.png" width="760" alt="DNS tools">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/DNS.png" width="760" alt="DNS tools">
 </p>
 </details>
 
@@ -106,11 +110,15 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <summary>⚙️ &nbsp;Settings</summary>
 <br>
 <p align="center">
-  <img <img src="docs/media/Settings.png" width="760" alt="Settings">
+  <img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Settings.png" width="760" alt="Settings">
 </p>
 </details>
 
 </details>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -177,11 +185,25 @@ It measures **ping, jitter, packet loss, download and upload speed** on the **re
 <a id="how-it-works"></a>
 ## 🧭 How it works
 
-```mermaid
-flowchart TD
-    A["🔌 Network Adapter"] --> B["⚙️ ESS Engine<br/>DL · UL · Ping · Loss"]
-    B --> C["🖥️ Overlay · Alerts<br/>Monitoring UI"]
-    B --> D["🛰️ ESS Service<br/>Background traffic recorder<br/>Data usage DB"]
+```text
+                ┌──────────────────┐
+                │ Network Adapter  │
+                └────────┬─────────┘
+                         │
+                         ▼
+                ┌──────────────────┐
+                │    ESS Engine    │
+                │ DL/UL/Ping/Loss  │
+                └────────┬─────────┘
+                         │
+            ┌────────────┴────────────┐
+            ▼                         ▼
+   ┌──────────────────┐      ┌──────────────────┐
+   │ Overlay · Alerts │      │   ESS Service    │
+   │ Monitoring · UI  │      │  Data Usage DB   │
+   └──────────────────┘      │ Background       │
+                             │ Traffic Recorder │
+                             └──────────────────┘
 ```
 
 ---
@@ -196,7 +218,7 @@ flowchart TD
 
 **Requirements**
 
-- 🪟 Windows 10/11 64x
+- 🪟 Windows 10/11 (64-bit)
 - 🌐 Microsoft Edge **WebView2 Runtime** (Evergreen)
 
 ---
