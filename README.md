@@ -257,11 +257,23 @@ For continuous network monitoring, enable the following options:
 <a id="folder-layout"></a>
 ## 🗂️ Folder layout
 
-```text
 HeeSA Everwatch Signal System/
 ├── 🚀 HeeSA Everwatch Signal System.exe
-├── 🗑️ Uninstall ESS.exe
-└── …clean, grouped support folders
+├── Other DLL , xml files
+└── 🗑️ Uninstall ESS.exe
+
+### 📂 Installation & Data Locations
+
+ESS stores its application files and supporting data in the following locations:
+
+| Component | Directory |
+|---|---|
+| **ESS Folder** | `your-install-location\Heesa Everwatch Signal System` |
+| **Application** | `C:\Program Files\ESS Application` |
+| **Background Service** | `%ProgramData%\ESS Service` |
+| **User Data & Cache** | `%LOCALAPPDATA%\HeeSA ESS` |
+
+**Note:** These directories are created and managed automatically by ESS during operation.
 ```
 
 ---
