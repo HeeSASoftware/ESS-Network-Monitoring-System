@@ -31,11 +31,11 @@
 
 It measures **ping, jitter, packet loss, download and upload speed** on the **real physical adapter**, alerts you the moment the internet drops, shows **which apps and destinations** use your data, and keeps a clean overlay on your screen.
 
+<h2 align="center">👁️ Preview</h2>
+
 <p align="center">
   <a href="https://heesasoftware.github.io/ESS-Network-Monitoring-System/"><img src="https://raw.githubusercontent.com/HeeSASoftware/ESS-Network-Monitoring-System/main/docs/media/Status.png" width="760" alt="ESS status screen. Click to open the interactive gallery"></a>
 </p>
-
-<h2 align="center">👁️ Preview</h2>
 
 <p align="center">
   <a href="https://heesasoftware.github.io/ESS-Network-Monitoring-System/"><img src="https://img.shields.io/badge/🖼️_Open_Interactive_Gallery-Screenshots_%26_Demos-0A84FF?style=for-the-badge&labelColor=0B1220" alt="Open the interactive gallery"></a>
